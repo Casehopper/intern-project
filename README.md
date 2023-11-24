@@ -16,7 +16,7 @@ The template for the letter contains placeholders for specific information about
 
 Your task is divided into two parts:
 
-1. **Information Gathering**: Using the provided reference documents, find the relevant information to fill in the placeholders in the template. This includes details about the beneficiary's accomplishments, the author's background, and the impact of the beneficiary's work. The documents to be used are listed below:
+1. **Information Extraction**: Using the provided reference documents, extract relevant information to fill in the placeholders in the template. This includes details about the beneficiary's accomplishments, the author's background, and the impact of the beneficiary's work. The documents to be used are listed below:
 
 - **Documents**:
 
@@ -38,9 +38,9 @@ Your task is divided into two parts:
 
   - Media covering author's accomplishments
 
-All documents listed above can be found in the 'files' directory included with this project. All URLs mentioned above can be found in the file called "websites.csv" as table with two columns: **Description** and **Url**. **Description** will contain a brief description of the contents of the page listed and **Url** will contain a single url directing you to the appropriate page. For websites, feel free to only use a subset of the subpages if you deem it appropriate. This curation need not be done programmatically.
+All documents listed above can be found in the 'files' directory included with this project. All URLs mentioned above can be found in the file called "websites.csv" as table with two columns: **Description** and **Url**. **Description** will contain a brief description of the contents of the page listed and **Url** will contain a single url directing you to the appropriate page. For websites, feel free to only use a subset of the subpages if you deem it appropriate. The selection of the websites need not be done programmatically (you can manually select the pages you want to use). However, the information extraction from the selected websites must be done programmatically. 
 
-2. **Template Completion**: Insert the gathered information into the appropriate placeholders in the template. Ensure that the inserted information makes sense in the context of the surrounding text and that the completed letter is coherent. The output letter should be in markdown format. The process of creating this insertion should be programmatic (i.e., You should write code to fill in the letter rather than filling it yourself).
+2. **Template Completion**: Insert the extracted information into the appropriate placeholders in the template. Ensure that the inserted information makes sense in the context of the surrounding text and that the completed letter is coherent. The output letter should be in markdown format. The process of creating this insertion should be programmatic (i.e., You should write code to fill in the letter rather than filling it yourself).
 
 ## Resources
 
@@ -49,3 +49,5 @@ We recommend that you work in Jupyter Notebook using Python, but you are free to
 ### API Credentials:
 
 As using LLMs normally has an associated cost, we have included credentials to utilize Replicate's API. These can be found in the template notebook attached and can be used to utilize LLAMA2 models. These are ONLY to be utilized while you work on your solution. Unrelated utilization of these will immediately disqualify you for the rest of our recruitment process.
+
+If you need any clarifications about the assessment please email recruiting@casehopper.com
